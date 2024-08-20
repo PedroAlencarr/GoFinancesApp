@@ -2,6 +2,7 @@ import React from "react";
 import { ThemeProvider } from "styled-components";
 
 import { Dashboard } from "@/screens/Dashboard";
+import { Register } from "@/screens/Register";
 import {
   useFonts,
   Poppins_400Regular,
@@ -21,7 +22,8 @@ export default function App() {
 
   return (
     <ThemeProvider theme={theme}>
-      <Dashboard />
+      {/* <Dashboard /> */}
+      <Register />
     </ThemeProvider>
   );
 }
